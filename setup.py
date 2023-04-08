@@ -25,7 +25,7 @@ test_requirements = load_reqs('requirements/test.txt')
 
 setup(
     name='etcd3',
-    version='0.12.0',
+    version='0.12.1',
     description="Python client for the etcd3 API",
     long_description=readme + '\n\n' + history,
     author="Louis Taylor",
@@ -55,6 +55,9 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
     ],
     test_suite='tests',
     tests_require=test_requirements
