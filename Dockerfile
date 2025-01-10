@@ -4,7 +4,7 @@ ARG HTTP_PROXY
 ARG http_proxy
 ARG HTTPS_PROXY
 ARG https_proxy
-ENV TEST_ETCD_VERSION v3.3.10
+ENV TEST_ETCD_VERSION v3.5.16
 
 RUN curl -L https://github.com/etcd-io/etcd/releases/download/${TEST_ETCD_VERSION}/etcd-${TEST_ETCD_VERSION}-linux-amd64.tar.gz | tar xzvf -
 ENV PATH $PATH:/etcd-${TEST_ETCD_VERSION}-linux-amd64

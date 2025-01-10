@@ -25,12 +25,12 @@ test_requirements = load_reqs('requirements/test.txt')
 
 setup(
     name='etcd3',
-    version='0.12.0',
+    version='0.12.1',
     description="Python client for the etcd3 API",
     long_description=readme + '\n\n' + history,
-    author="Louis Taylor",
-    author_email='louis@kragniz.eu',
-    url='https://github.com/kragniz/python-etcd3',
+    author="Forked from kragniz/python-etcd3",
+    author_email='',
+    url='https://github.com/wizzk42/python-etcd3',
     packages=[
         'etcd3',
         'etcd3.etcdrpc',
@@ -45,16 +45,16 @@ setup(
     zip_safe=False,
     keywords='etcd3',
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
         'Natural Language :: English',
-        "Programming Language :: Python :: 2",
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+
     ],
     test_suite='tests',
     tests_require=test_requirements
